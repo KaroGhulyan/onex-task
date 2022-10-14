@@ -10,7 +10,7 @@ import {
   TableRow,
 } from "@mui/material";
 import useGetDataByInfiniteScroll from "../hooks/useGetDataByInfiniteScroll";
-import { tableStyles } from "./tableStyles";
+import { tableStyles } from "../assets/tableStyles";
 
 const TableWithInfiniteScroll = () => {
   const { rows, loading, tableEl } = useGetDataByInfiniteScroll();
